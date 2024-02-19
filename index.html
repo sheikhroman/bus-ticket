@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SR Bus</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/a480c85b8f.js" crossorigin="anonymous"></script>
+
+</head>
+<body class="m-8">
+    <header>
+        <div class="navbar bg-base-100">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                </div>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                        <li><a>Home</a></li>
+                        <li><a>About</a></li>
+                        <li><a href="">Destination</a></li>
+                        <li><a>Search</a></li>
+              </div>
+              <a class="text-4xl font-bold">SR-Bus</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1 text-xl font-semibold">
+                <li><a>Home</a></li>
+                <li><a>About</a></li>
+                <li><a href="">Destination</a></li>
+                <li><a>Search</a></li>
+              </ul>
+            </div>
+            <div class="navbar-end">
+              <a class="btn px-6 bg-[rgba(161,227,151,0.53)] text-green-500 border-green-600">Bus <i class="fa-solid fa-bus"></i></a>
+            </div>
+          </div>
+    </header>
+    <main>
+        <!-- banner -->
+        <section class="w-full container mx-auto lg:px-24 px-8 mt-8">
+            <div id="item1" class="carousel-item w-full bg-[url(./images/banner.png)] bg-no-repeat h-[80vh] flex items-center justify-center ">
+                <div class="text-center text-white space-y-4">
+                    <h1 class="text-5xl font-extrabold text-center">End-to-End Travel with <br><span class="text-green-600">SR Bus</span></h1>
+                <p class="text-white">Yes, you can run unit tests and view the results directly within the app.<br>The integrated testing features allow for a streamlined .</p>
+                <button class="bg-green-600 p-4 rounded-md text-black font-bold">Buy Tickets</button>
+              </div>
+            </div>
+        </section>
+        <!-- offer -->
+        <section class="container mx-auto lg:px-24 px-8 mt-8">
+            <h1 class="text-center font-extrabold text-3xl">Best offers for you</h1>
+            <div class="flex pt-16">
+                <div class="flex gap-4 text-center items-center" style="width: 100%;">
+                    <div class="left-box flex gap-4 bg-[#FFBF0F] p-10 rounded-md" style="width: 50%;">
+                        <div class="left" style="width: 100%;">
+                            <h2 class="font-extrabold text-2xl">15% OFF</h2>
+                            <h4 class="font-bold">on your next purchase</h4>
+                            <p>use by January 2024</p>
+                        </div>
+                        <hr>
+                        <div class="right" style="width: 100%;">
+                            <h2 class="font-2xl font-bold">NEW15</h2>
+                            <p>Coupon Code</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-4 " style="width: 50%;">
+                        <div class="left-box flex gap-4 bg-[#F78C9C] p-10 rounded-md" style="width: 100%;">
+                            <div class="left" style="width: 80%;">
+                                <h2 class="font-extrabold text-2xl">15% OFF</h2>
+                                <h4 class="font-bold">on your next purchase</h4>
+                                <p>use by January 2024</p>
+                            </div>
+                            <div class="right" style="width: 20%;">
+                                <h2 class="font-2xl font-bold">Couple 20</h2>
+                                <p>Coupon Code</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex justify-center pt-16">
+                <button class="btn text-[#1DD100] font-bold border-green-600">See All Offers</button>
+            </div>
+        </section>
+    <section class="w-full container mx-auto lg:px-24 px-8 py-24 mt-8 bg-[#F7F8F8] rounded-tl-lg">
+        <!-- ticket -->
+        <div class="justify-center text-center">
+            <h1 class="text-3xl font-extrabold">SR Bus</h1>
+            <p>Yes, you can run unit tests and view the results directly within the app. The integrated testing features allow for a streamlined .</p>
+        </div>
+        <div class="flex py-8 bg-white pt-6 rounded-md p-8">
+                <div class="" style="width: 80%;">
+                    <div class="flex">
+                        <div class="">
+                            <i class="fa-solid fa-bus"></i>
+                            <h1>Greenline Paribahan</h1>
+                            <p>Coach-009-WEB ! AC_Business</p>
+                        </div>
+                        <div class="">
+                            <p><i class="fa-solid fa-bus-simple"></i>40 Seats left</p>
+                        </div>
+                    </div>
+                </div>
+            <div class="text-center" style="width: 20%;">
+                <i class="fa-solid fa-bangladeshi-taka-sign bg-green-500 p-4 text-white font-bold text-xl rounded-full"></i>
+                <h1 class="font-bold text-xl">550 Taka</h1>
+                <p class="text-gray-500 font-semibold">Per Seat</p>
+            </div>
+        </div>
+    </section>
+</main>
+    <footer>
+
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
